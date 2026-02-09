@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Card[] cards = {
-                new Card("What is Java?", "Programming language", true),
+                new Card("What is java?", "Programming language", true),
                 new Card("What is OOP?", "Object-Oriented Programming", true),
                 new Card("What is encapsulation?", "Data hiding", false),
                 new Card("What is inheritance?",
@@ -10,11 +10,11 @@ public class Main {
                 new Card("What is interface?",
                         "is an abstract type that defines a set of methods a class must implement.", false)
         };
-        System.out.println("BEFORE ");
+        System.out.println("Before ");
         printCards(cards);
         CardOrganizer organizer = new RecentMistakesFirstSorter();
         Card[] organized = organizer.organizeCards(cards);
-        System.out.println("\n AFTER (Mistakes First) ");
+        System.out.println("\n after (incorrect answers appear first) ");
         printCards(organized);
     }
 
