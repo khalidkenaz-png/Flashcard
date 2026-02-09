@@ -5,7 +5,7 @@ import { newRecentMistakesFirstSorter } from './newRecentMistakesFirstSorter';
 class Main {
     static main(): void {
         const cards: Card[] = [
-            new Card("What is Java?", "Programming language", true),
+            new Card("What is java?", "Programming language", true),
             new Card(
                 "What is polymorphism?",
                 "The same method can behave differently depending on the object that calls this method.",
@@ -25,13 +25,13 @@ class Main {
             )
         ];
 
-        console.log("BEFORE ");
+        console.log("Before ");
         this.printCards(cards);
 
         const organizer: CardOrganizer = new newRecentMistakesFirstSorter();
         const organized: Card[] = organizer.organizeCards(cards);
 
-        console.log("\n AFTER (Mistakes First) ");
+        console.log("\n After (incorrect answers appear first) ");
         this.printCards(organized);
     }
 
