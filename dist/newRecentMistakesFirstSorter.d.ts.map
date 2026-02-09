@@ -1,0 +1,1 @@
+{"version":3,"file":"newRecentMistakesFirstSorter.d.ts","sourceRoot":"","sources":["../newRecentMistakesFirstSorter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,IAAI,EAAE,MAAM,QAAQ,CAAC;AAC9B,OAAO,EAAE,aAAa,EAAE,MAAM,iBAAiB,CAAC;AAEhD,qBAAa,4BAA6B,YAAW,aAAa;IAC9D,aAAa,CAAC,KAAK,EAAE,IAAI,EAAE,GAAG,IAAI,EAAE;CAkBvC"}
